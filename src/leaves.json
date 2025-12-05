@@ -1,0 +1,50 @@
+[
+    {
+        "type": "annual",
+        "subject": "포렌식 세미나",
+        "date": "2024-12-16",
+        "days": 1
+    },
+    {
+        "type": "annual",
+        "subject": "부산 여행",
+        "date": "2025-02-13",
+        "days": 2
+    },
+    {
+        "type": "annual",
+        "subject": "대만 여행",
+        "date": "2025-04-09",
+        "days": 3
+    },
+    {
+        "type": "annual",
+        "subject": "푸메토 MT",
+        "date": "2025-05-09",
+        "days": 1
+    },
+    {
+        "type": "annual",
+        "subject": "프세카 카페 오픈런",
+        "date": "2025-06-25",
+        "days": 1
+    },
+    {
+        "type": "annual",
+        "subject": "마지미라 목금",
+        "date": "2025-08-07",
+        "days": 2
+    },
+    {
+        "type": "annual",
+        "subject": "마지미라 월",
+        "date": "2025-08-11",
+        "days": 1
+    },
+    {
+        "type": "annual",
+        "subject": "친구 자취방",
+        "date": "2025-09-05",
+        "days": 1
+    }
+]

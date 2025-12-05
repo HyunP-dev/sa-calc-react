@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, AppleSDGothicNeo, sans-serif;
+    font-size: 14px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.block {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #161618;
+    margin-bottom: 16px;
+}
+
+.subblock {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #212124;
+}
+
+td {
+    padding-right: 6px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#progress {
+    appearance: none;
+    height: 6px;
+}
+
+#progress::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress::-webkit-progress-value {
+    border-radius: 10px;
+    background: #0077d0;
+}
+
+#progress-status {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subblock div {
+    font-size: 17px;
+}
+
+.subblock .header {
+    font-size: x-small;
+}
+
+#dateRangeView {
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+#salaryView {
+    font-size: x-large;
+    text-align: center;
+}
+
+#salaryViewSlot {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#salaryViewSlot svg {
+    cursor: pointer;
+    color: #666666;
+}
+
+#salaryViewSlot>* {
+    padding: 6px;
+}
+
+#leavesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
